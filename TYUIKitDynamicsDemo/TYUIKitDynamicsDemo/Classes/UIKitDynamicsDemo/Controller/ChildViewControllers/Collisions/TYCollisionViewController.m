@@ -134,4 +134,60 @@
 
 #pragma mark - UICollisionBehaviorDelegate
 
+/**
+ 碰撞开始时调用.并指出了边界及接触点
+
+ @param behavior 碰撞行为
+ @param item 发生碰撞行为的视图
+ @param identifier 接触的边界的标识
+ @param p 接触点
+ */
+- (void)collisionBehavior:(UICollisionBehavior *)behavior beganContactForItem:(id<UIDynamicItem>)item withBoundaryIdentifier:(id<NSCopying>)identifier atPoint:(CGPoint)p {
+    
+    if ([item isEqual:self.collisionEffectView_first]) {
+        NSLog(@"第一个图碰到了---%zd",p);
+    }
+    
+    if ([item isEqual:self.collisionEffectView_second]) {
+        NSLog(@"第二个图碰到了---%zd",p);
+    }
+    
+}
+
+/**
+ 碰撞开始的时候调用,没有指出边界
+
+ @param behavior 碰撞行为
+ @param item1 发生碰撞的视图1
+ @param item2 发生碰撞的视图2
+ @param p 接触点
+ */
+- (void)collisionBehavior:(UICollisionBehavior *)behavior beganContactForItem:(id<UIDynamicItem>)item1 withItem:(id<UIDynamicItem>)item2 atPoint:(CGPoint)p {
+    
+}
+
+/**
+ 碰撞结束时调用,没有指出边界
+ 
+ @param behavior 碰撞行为
+ @param item1 发生碰撞的视图1
+ @param item2 发生碰撞的视图2
+ */
+- (void)collisionBehavior:(UICollisionBehavior *)behavior endedContactForItem:(id<UIDynamicItem>)item1 withItem:(id<UIDynamicItem>)item2 {
+    
+}
+
+/**
+ 碰撞结束时调用,指出边界
+
+ @param behavior 碰撞行为
+ @param item 发生碰撞的视图1
+ @param identifier 边界的标识
+ */
+- (void)collisionBehavior:(UICollisionBehavior *)behavior endedContactForItem:(id<UIDynamicItem>)item withBoundaryIdentifier:(id<NSCopying>)identifier {
+    
+}
+
+
+
 @end

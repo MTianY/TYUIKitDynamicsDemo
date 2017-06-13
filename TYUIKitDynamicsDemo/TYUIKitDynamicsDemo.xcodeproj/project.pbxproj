@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C778E761EF0252200C01C05 /* TYAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C778E751EF0252200C01C05 /* TYAttachmentViewController.m */; };
 		4CC468301EEFC6D800227308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4682F1EEFC6D800227308 /* main.m */; };
 		4CC468331EEFC6D800227308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC468321EEFC6D800227308 /* AppDelegate.m */; };
 		4CC4683B1EEFC6D800227308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC4683A1EEFC6D800227308 /* Assets.xcassets */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C778E741EF0252200C01C05 /* TYAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttachmentViewController.h; sourceTree = "<group>"; };
+		4C778E751EF0252200C01C05 /* TYAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttachmentViewController.m; sourceTree = "<group>"; };
 		4CC4682B1EEFC6D800227308 /* TYUIKitDynamicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYUIKitDynamicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC4682F1EEFC6D800227308 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC468311EEFC6D800227308 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 		4CC468521EEFD24300227308 /* Attachments */ = {
 			isa = PBXGroup;
 			children = (
+				4C778E741EF0252200C01C05 /* TYAttachmentViewController.h */,
+				4C778E751EF0252200C01C05 /* TYAttachmentViewController.m */,
 			);
 			path = Attachments;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				4CC4685B1EEFD43100227308 /* TYGravityViewController.m in Sources */,
 				4CC4684D1EEFC73400227308 /* TYTabBarViewController.m in Sources */,
 				4CC468611EEFE83400227308 /* TYNavigationViewController.m in Sources */,
+				4C778E761EF0252200C01C05 /* TYAttachmentViewController.m in Sources */,
 				4CC468331EEFC6D800227308 /* AppDelegate.m in Sources */,
 				4CC468501EEFC77300227308 /* TYDemoViewController.m in Sources */,
 				4CC468301EEFC6D800227308 /* main.m in Sources */,
@@ -436,6 +442,7 @@
 				4CC468441EEFC6D900227308 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

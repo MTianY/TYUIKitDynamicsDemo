@@ -9,6 +9,7 @@
 #import "TYDemoViewController.h"
 #import "TYGravityViewController.h"
 #import "TYCollisionViewController.h"
+#import "TYAttachmentViewController.h"
 
 @interface TYDemoViewController ()
 
@@ -76,6 +77,12 @@
     if (1 == indexPath.row) {
         TYCollisionViewController *collisionVc = [[TYCollisionViewController alloc] init];
         [self.navigationController pushViewController:collisionVc animated:YES];
+    }
+    
+    // 3.连接测试
+    if (2 == indexPath.row) {
+        TYAttachmentViewController *attachmentVc = [[TYAttachmentViewController alloc] init];
+        [self.navigationController pushViewController:attachmentVc animated:YES];
     }
     
 }
