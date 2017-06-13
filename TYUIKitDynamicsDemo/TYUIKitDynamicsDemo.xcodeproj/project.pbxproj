@@ -17,6 +17,8 @@
 		4CC4685B1EEFD43100227308 /* TYGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4685A1EEFD43100227308 /* TYGravityViewController.m */; };
 		4CC4685E1EEFE0F600227308 /* TYCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4685D1EEFE0F600227308 /* TYCollisionViewController.m */; };
 		4CC468611EEFE83400227308 /* TYNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC468601EEFE83400227308 /* TYNavigationViewController.m */; };
+		4CD07DEF1EF0754400E2B175 /* TYSpringsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD07DEE1EF0754400E2B175 /* TYSpringsViewController.m */; };
+		4CD07DF21EF07DA600E2B175 /* TYSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD07DF11EF07DA600E2B175 /* TYSnapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		4CC4685D1EEFE0F600227308 /* TYCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCollisionViewController.m; sourceTree = "<group>"; };
 		4CC4685F1EEFE83400227308 /* TYNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNavigationViewController.h; sourceTree = "<group>"; };
 		4CC468601EEFE83400227308 /* TYNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNavigationViewController.m; sourceTree = "<group>"; };
+		4CD07DED1EF0754400E2B175 /* TYSpringsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSpringsViewController.h; sourceTree = "<group>"; };
+		4CD07DEE1EF0754400E2B175 /* TYSpringsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSpringsViewController.m; sourceTree = "<group>"; };
+		4CD07DF01EF07DA600E2B175 /* TYSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSnapViewController.h; sourceTree = "<group>"; };
+		4CD07DF11EF07DA600E2B175 /* TYSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSnapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,8 @@
 		4CC468571EEFD24300227308 /* Snaps */ = {
 			isa = PBXGroup;
 			children = (
+				4CD07DF01EF07DA600E2B175 /* TYSnapViewController.h */,
+				4CD07DF11EF07DA600E2B175 /* TYSnapViewController.m */,
 			);
 			path = Snaps;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 		4CC468581EEFD24300227308 /* Springs */ = {
 			isa = PBXGroup;
 			children = (
+				4CD07DED1EF0754400E2B175 /* TYSpringsViewController.h */,
+				4CD07DEE1EF0754400E2B175 /* TYSpringsViewController.m */,
 			);
 			path = Springs;
 			sourceTree = "<group>";
@@ -287,7 +297,9 @@
 				4CC4685E1EEFE0F600227308 /* TYCollisionViewController.m in Sources */,
 				4CC4685B1EEFD43100227308 /* TYGravityViewController.m in Sources */,
 				4CC4684D1EEFC73400227308 /* TYTabBarViewController.m in Sources */,
+				4CD07DEF1EF0754400E2B175 /* TYSpringsViewController.m in Sources */,
 				4CC468611EEFE83400227308 /* TYNavigationViewController.m in Sources */,
+				4CD07DF21EF07DA600E2B175 /* TYSnapViewController.m in Sources */,
 				4C778E761EF0252200C01C05 /* TYAttachmentViewController.m in Sources */,
 				4CC468331EEFC6D800227308 /* AppDelegate.m in Sources */,
 				4CC468501EEFC77300227308 /* TYDemoViewController.m in Sources */,

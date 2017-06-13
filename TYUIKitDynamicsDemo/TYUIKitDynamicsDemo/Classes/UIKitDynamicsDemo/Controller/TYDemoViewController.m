@@ -10,6 +10,8 @@
 #import "TYGravityViewController.h"
 #import "TYCollisionViewController.h"
 #import "TYAttachmentViewController.h"
+#import "TYSpringsViewController.h"
+#import "TYSnapViewController.h"
 
 @interface TYDemoViewController ()
 
@@ -83,6 +85,18 @@
     if (2 == indexPath.row) {
         TYAttachmentViewController *attachmentVc = [[TYAttachmentViewController alloc] init];
         [self.navigationController pushViewController:attachmentVc animated:YES];
+    }
+    
+    // 4.弹簧效果测试
+    if (3 == indexPath.row) {
+        TYSpringsViewController *springsVc = [[TYSpringsViewController alloc] init];
+        [self.navigationController pushViewController:springsVc animated:YES];
+    }
+    
+    // 5.吸附测试
+    if (4 == indexPath.row) {
+        TYSnapViewController *snapVc = [[TYSnapViewController alloc] init];
+        [self.navigationController pushViewController:snapVc animated:YES];
     }
     
 }
