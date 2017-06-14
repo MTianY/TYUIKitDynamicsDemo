@@ -12,6 +12,8 @@
 #import "TYAttachmentViewController.h"
 #import "TYSpringsViewController.h"
 #import "TYSnapViewController.h"
+#import "TYPushViewController.h"
+#import "TYPropertyViewController.h"
 
 @interface TYDemoViewController ()
 
@@ -97,6 +99,18 @@
     if (4 == indexPath.row) {
         TYSnapViewController *snapVc = [[TYSnapViewController alloc] init];
         [self.navigationController pushViewController:snapVc animated:YES];
+    }
+    
+    // 6.推力测试
+    if (5 == indexPath.row) {
+        TYPushViewController *pushVc = [[TYPushViewController alloc] init];
+        [self.navigationController pushViewController:pushVc animated:YES];
+    }
+    
+    // 7.属性测试
+    if (6 == indexPath.row) {
+        TYPropertyViewController *propertyVc = [[TYPropertyViewController alloc] init];
+        [self.navigationController pushViewController:propertyVc animated:YES];
     }
     
 }

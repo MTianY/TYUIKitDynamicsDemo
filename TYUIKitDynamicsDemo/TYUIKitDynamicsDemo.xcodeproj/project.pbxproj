@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4796B31EF0C6AA00B8DF83 /* TYPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4796B21EF0C6AA00B8DF83 /* TYPushViewController.m */; };
+		4C4796B61EF0D3C000B8DF83 /* TYPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4796B51EF0D3C000B8DF83 /* TYPropertyViewController.m */; };
 		4C778E761EF0252200C01C05 /* TYAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C778E751EF0252200C01C05 /* TYAttachmentViewController.m */; };
 		4CC468301EEFC6D800227308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4682F1EEFC6D800227308 /* main.m */; };
 		4CC468331EEFC6D800227308 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC468321EEFC6D800227308 /* AppDelegate.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C4796B11EF0C6AA00B8DF83 /* TYPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPushViewController.h; sourceTree = "<group>"; };
+		4C4796B21EF0C6AA00B8DF83 /* TYPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPushViewController.m; sourceTree = "<group>"; };
+		4C4796B41EF0D3C000B8DF83 /* TYPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPropertyViewController.h; sourceTree = "<group>"; };
+		4C4796B51EF0D3C000B8DF83 /* TYPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPropertyViewController.m; sourceTree = "<group>"; };
 		4C778E741EF0252200C01C05 /* TYAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttachmentViewController.h; sourceTree = "<group>"; };
 		4C778E751EF0252200C01C05 /* TYAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttachmentViewController.m; sourceTree = "<group>"; };
 		4CC4682B1EEFC6D800227308 /* TYUIKitDynamicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYUIKitDynamicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +191,8 @@
 		4CC468541EEFD24300227308 /* Forces */ = {
 			isa = PBXGroup;
 			children = (
+				4C4796B11EF0C6AA00B8DF83 /* TYPushViewController.h */,
+				4C4796B21EF0C6AA00B8DF83 /* TYPushViewController.m */,
 			);
 			path = Forces;
 			sourceTree = "<group>";
@@ -201,6 +209,8 @@
 		4CC468561EEFD24300227308 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				4C4796B41EF0D3C000B8DF83 /* TYPropertyViewController.h */,
+				4C4796B51EF0D3C000B8DF83 /* TYPropertyViewController.m */,
 			);
 			path = Properties;
 			sourceTree = "<group>";
@@ -300,9 +310,11 @@
 				4CD07DEF1EF0754400E2B175 /* TYSpringsViewController.m in Sources */,
 				4CC468611EEFE83400227308 /* TYNavigationViewController.m in Sources */,
 				4CD07DF21EF07DA600E2B175 /* TYSnapViewController.m in Sources */,
+				4C4796B61EF0D3C000B8DF83 /* TYPropertyViewController.m in Sources */,
 				4C778E761EF0252200C01C05 /* TYAttachmentViewController.m in Sources */,
 				4CC468331EEFC6D800227308 /* AppDelegate.m in Sources */,
 				4CC468501EEFC77300227308 /* TYDemoViewController.m in Sources */,
+				4C4796B31EF0C6AA00B8DF83 /* TYPushViewController.m in Sources */,
 				4CC468301EEFC6D800227308 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
